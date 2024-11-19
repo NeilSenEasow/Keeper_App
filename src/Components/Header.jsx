@@ -1,7 +1,15 @@
 import React from "react";
+import HighlightIcon from "@material-ui/icons/Highlight";
 
 function Header() {
-  return <h1 className="header">Keeper</h1>;
+  return (
+    <header>
+      <h1>
+        <HighlightIcon />
+        Keeper
+      </h1>
+    </header>
+  );
 }
 
 export default Header;
